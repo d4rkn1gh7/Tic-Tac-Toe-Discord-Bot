@@ -188,8 +188,7 @@ async def getUserChar(ctx,bot,currentPlayer):
     return str(reaction.emoji)
 
 
-# 1:38
-# https://www.youtube.com/watch?v=n0HzmccVgOc&list=PL-pi8uVr87LuR5kMbrQWfKzxHgSPwBPVm&index=8 
+
 
 
 
