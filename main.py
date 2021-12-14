@@ -7,8 +7,7 @@ from config import *
 import datetime
 from datetime import datetime
 from game import *
-# https://www.youtube.com/watch?v=wBbgCUQZNzM - Another video
-# https://www.youtube.com/watch?v=7pBFWE414gs&list=PL-pi8uVr87LuR5kMbrQWfKzxHgSPwBPVm&index=2 - This video
+
 
 bot = commands.Bot(command_prefix=PREFIX,description="Tic-Tac-Toe Bot")
 
@@ -79,7 +78,7 @@ async def bye(ctx):
     msg = await ctx.send(embed=embed)
     await msg.add_reaction('🟥')
     await msg.add_reaction('🟦')
-    #await ctx.message.add_reaction('👋')
+   
     await msg.add_reaction('🎮')
 
 @bot.command(pass_context=True)
